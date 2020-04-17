@@ -14,13 +14,14 @@ import { FoterComponent } from './foter/foter.component';
 import { ProductService } from './product.service';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ManagerComponent } from './manager/manager.component';
+import { DarbroadComponent } from './darbroad/darbroad.component';
 
 
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule , HttpClientModule  ],
-  declarations: [ AppComponent, HelloComponent, BannerComponent, Banner2Component, ProductListComponent, ProductSeComponent, HomeComponent, FoterComponent, ProductDetailComponent, ManagerComponent ],
+  declarations: [ AppComponent, HelloComponent, BannerComponent, Banner2Component, ProductListComponent, ProductSeComponent, HomeComponent, FoterComponent, ProductDetailComponent, ManagerComponent, DarbroadComponent ],
   bootstrap:    [ AppComponent ],
   providers: [ProductService],
 
