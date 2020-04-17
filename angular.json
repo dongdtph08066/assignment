@@ -23,7 +23,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+               "src/aset/css/bootstrap.css",
+              "src/aset/css/checkout.css",
+              "src/aset/css/contact.css",
+              "src/aset/css/creditly.css",
+              "src/aset/css/flexslider.css",
+              "src/aset/css/fontawesome-all.css",
+              "src/aset/css/jquery-ui1.css",
+              "src/aset/css/owl.carousel.css",
+              "src/aset/css/owl.theme.css",
+              "src/aset/css/shop.css",
+              "src/aset/css/simplyCountdown.css",
+             "src/aset/css/style.css",
+              "src/aset/css/style6.css"
             ],
             "scripts": []
           },
