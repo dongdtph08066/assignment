@@ -4,8 +4,8 @@ import { Product } from "../Product";
 import { ProductService } from '../product.service';
 @Component({
   selector: "app-product-manager",
-  templateUrl: "./manager.component.html",
-  styleUrls: ["./manager.component.css"]
+  templateUrl: "./product-manager.component.html",
+  styleUrls: ["./product-manager.component.css"]
 })
 export class ProductManagerComponent implements OnInit {
   constructor(
