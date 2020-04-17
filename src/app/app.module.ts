@@ -11,6 +11,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductSeComponent } from './product-se/product-se.component';
 import { HomeComponent } from './home/home.component';
 import { FoterComponent } from './foter/foter.component';
+import { ProductService } from './product.service';
 
 
 
@@ -20,6 +21,7 @@ import { FoterComponent } from './foter/foter.component';
   imports:      [ BrowserModule, FormsModule, AppRoutingModule , HttpClientModule  ],
   declarations: [ AppComponent, HelloComponent, BannerComponent, Banner2Component, ProductListComponent, ProductSeComponent, HomeComponent, FoterComponent ],
   bootstrap:    [ AppComponent ],
+  providers: [ProductService],
 
   
 

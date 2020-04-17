@@ -24,7 +24,7 @@
             ],
             "styles": [
               "src/styles.css",
-               "src/aset/css/bootstrap.css",
+              "src/aset/css/bootstrap.css",
               "src/aset/css/checkout.css",
               "src/aset/css/contact.css",
               "src/aset/css/creditly.css",
