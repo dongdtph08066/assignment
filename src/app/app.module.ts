@@ -14,10 +14,14 @@ import { FoterComponent } from './foter/foter.component';
 
 
 
+
+
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule , HttpClientModule  ],
   declarations: [ AppComponent, HelloComponent, BannerComponent, Banner2Component, ProductListComponent, ProductSeComponent, HomeComponent, FoterComponent ],
   bootstrap:    [ AppComponent ],
+
+  
 
 
 })
